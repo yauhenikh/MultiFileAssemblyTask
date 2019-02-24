@@ -1,0 +1,61 @@
+
+//  Microsoft (R) .NET Framework IL Disassembler.  Version 4.6.1055.0
+
+
+
+
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly MultiFileAssembly
+{
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                             63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- Следующий настраиваемый атрибут добавлен автоматически, не следует отменять преобразование в комментарий -------
+  //  .custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .publickey = (00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00   // .$..............
+                00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00   // .$..RSA1........
+                EB 9F 28 3D 99 C1 9D 7B 22 4A 49 9F 4B 1C FE 03   // ..(=...{"JI.K...
+                0E 79 54 60 EF 29 2B AA C9 86 6C 86 1C EF 94 E0   // .yT`.)+...l.....
+                8A 98 09 51 8D FB 1A 66 DD 3F FB DC 83 DC D6 31   // ...Q...f.?.....1
+                80 22 4A 21 68 46 60 3D 59 E5 2B BC DF FC 59 0F   // ."J!hF`=Y.+...Y.
+                89 03 23 1B A7 64 6E 04 43 24 2D 72 E0 7F 52 2D   // ..#..dn.C$-r..R-
+                D0 36 5D E7 DE 14 BD 3D 7B 2C 26 F1 9B 4A A5 46   // .6]....={,&..J.F
+                9C F1 5F C3 90 AD CD 1D 51 6B 5F DB 00 7F 7A 30   // .._.....Qk_...z0
+                71 D5 21 EE 6C A3 EB 24 3D 1E E4 B1 36 52 E4 AC ) // q.!.l..$=...6R..
+  .hash algorithm 0x00008004
+  .ver 0:0:0:0
+}
+.file FirstModule.netmodule
+    .hash = (A2 F8 ED 5E A3 FC B3 7F 73 AF C2 1C 8E A2 31 9E   // ...^....s.....1.
+             10 C7 D0 6F )                                     // ...o
+.file SecondModule.netmodule
+    .hash = (B7 71 12 FF 38 C8 77 F2 62 CB F8 FA ED 01 74 14   // .q..8.w.b.....t.
+             69 64 80 D9 )                                     // id..
+.class extern public FirstModule.FirstModuleClass
+{
+  .file FirstModule.netmodule
+  .class 0x02000002
+}
+.class extern public SecondModule.SecondModuleClass
+{
+  .file SecondModule.netmodule
+  .class 0x02000002
+}
+.module MultiFileAssembly.dll
+// MVID: {99F27A58-B447-45F3-BCDB-38B5CE9E5F2B}
+.imagebase 0x10000000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00000009    //  ILONLY
+// Image base: 0x01640000
+
+// *********** ДИЗАССЕМБЛИРОВАНИЕ ЗАВЕРШЕНО ***********************
+// ВНИМАНИЕ: создан файл ресурсов Win32 ildasmInfo.res
